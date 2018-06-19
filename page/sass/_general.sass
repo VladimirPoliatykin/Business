@@ -1,0 +1,96 @@
+$logoFont: 'PoiretOne', sans-serif
+$mainFont: 'CabinRegular', sans-serif
+$montserratFont: 'Montserrat', sans-serif
+$latoFont: 'LatoRegular', sans-serif
+
+$colorGreen: #4ecb8c
+$bgc: #9b9a95
+$colorDark: #333333
+$colorRed: #eb373d
+
+
+h1,h2,h3,h4,h5
+	margin: 0 0
+
+h2
+	margin-bottom: 75px
+	font-size: 48px
+	font-family: $mainFont
+h4
+	font-weight: 700
+	font-family: $latoFont
+
+ul
+	padding: 0
+	margin: 0
+	li
+		list-style-type: none
+	a
+		text-decoration: none
+
+a
+	transition: 0.5s
+	&:hover
+		text-decoration: none
+		color: $colorGreen
+
+p
+	font-family: $latoFont
+
+
+body
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	-webkit-font-smoothing: antialised
+	overflow-x: hidden
+
+span
+	font-weight: 700
+
+.container-fluid
+	max-width: 1200px
+
+.offset
+	padding: 130px 0
+
+.offset_small
+	padding: 70px 0
+
+
+//-------------------- BUTTON --------------------
+
+button
+	height: 60px
+	width: 225px
+	line-height: 60px
+	text-align: center
+	border: none
+	border-radius: 5px
+	transition: 0.3s
+	font-family: $latoFont
+	font-size: 14px
+	a
+		text-transform: uppercase
+		font-weight: 700
+		color: black
+
+
+.btn_transparent_d
+	background-color: transparentize(black, 1)
+	border: 2px solid $colorDark
+	a
+		color: $colorDark
+
+.btn_transparent_w
+	background-color: transparentize(black, 1)
+	border: 2px solid white
+	a
+		color: white
+
+.block_item
+	background-color: white
+	border: 4px solid #f2f2f2
+	text-align: center

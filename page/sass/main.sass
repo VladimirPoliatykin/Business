@@ -1,0 +1,281 @@
+@import general
+
+
+
+//--------------------HEADER --------------------
+
+header
+	background-image: url("../img/bg_image.jpg") 
+	background-size: cover
+	color: white
+	a
+		color: white
+
+
+.overlay
+	background-color: rgba(0,0,0,.3)
+
+header,header .overlay
+	height: 1000px
+
+
+.logo,.top_menu
+	text-transform: lowercase
+
+.logo
+	font-family: $logoFont
+	font-weight: 300
+	color: white
+	font-size: 30px
+
+
+.top_menu
+	display: flex
+	float: right
+	margin-top: 10px
+	li
+		margin-right: 15px
+		font-family: $montserratFont
+		&:last-child
+			margin-right: 0px
+		a
+			font-size: 14px
+			text-transform: uppercase
+
+.main_title
+	h1
+		font-size: 60px
+		font-weight: 500
+		text-transform: none
+		font-family: $mainFont
+		margin: 200px 0 20px 0
+	p
+		max-width: 580px
+		margin-bottom: 36px
+		font-size: 14px
+		font-family: $latoFont
+
+	button
+		background-color: $colorGreen
+		a
+			&:hover
+				color: white
+		&:hover
+			background-color: $colorRed
+
+//-------------------- FEATURES --------------------
+
+.features_s
+	background-color: white
+	height: 620px
+	h2
+		text-align: center
+
+.features_item
+	margin: 0 auto
+	max-width: 330px
+	height: 210px
+	position: relative
+	.circle
+		position: absolute
+		top: -30px
+		left: 40%
+	h4
+		margin-top: 50px
+		text-transform: uppercase
+	h4,p
+		padding: 5px 30px
+.circle 
+	width: 64px
+	height: 64px
+	-moz-border-radius: 50px
+	-webkit-border-radius: 50px
+	border-radius: 50px
+
+.bl
+	margin-left: 30px
+
+.box1
+	background: $colorGreen url("../img/icons/box1_icon.png") no-repeat center
+.box2
+	background: $colorGreen url("../img/icons/box2_icon.png") no-repeat center
+.box3
+	background: $colorGreen url("../img/icons/box3_icon.png") no-repeat center
+
+
+//-------------------- OUR SHORT STORY  --------------------
+
+.story_s
+	background-image: url("../img/story_bg.jpg") 
+	background-size: cover
+	h2
+		text-align: center
+
+// .story_s,.story_s .overlay
+
+.story_item
+	padding: 150px 0
+	color: white
+	h2
+		color: White
+	p
+		margin-bottom: 40px
+	button
+		&:hover
+			border: 2px solid $colorGreen
+			a
+				transition: 0.3s
+				color: $colorGreen
+	.btn_transparent
+		margin-top: 20px
+
+
+
+//--------------------OUR CLIENTS SAYS  --------------------
+
+.comments_s
+	h2
+		text-align: center
+	.item
+		margin-bottom: 35px
+
+
+.comments_item
+	text-align: left
+	font-weight: 700
+
+	p
+		padding: 20px 20px
+		font-size: 18px
+		color: #444444
+
+.client
+	display: flex
+	justify-content: flex-end
+	position: relative
+	margin-top: 25px
+	a
+		font-size: 22px
+		color: black
+		font-weight: 700
+		display: block
+		position: absolute
+		top: 3px
+		right: 80px
+	p
+		font-size: 18px
+		position: absolute
+		top: 30px
+		right: 80px
+	.comments_circle
+		background-color: #989898
+
+// .comment_item_right-margin
+// 	position: absolute
+// 	top: -80px
+
+//-------------------- OUR EXPERIENCE / SKILLS  --------------------
+
+.experience_s
+	// background-color: #353535
+	// height: 660px
+	background-image: url("../img/exp_bg.jpg") 
+	background-size: cover
+	color: white
+
+.exp_item
+	h2
+		text-align: left
+		margin-top: 100px
+		margin-bottom: 25px
+
+	button
+		border: 1px solid white
+		a
+			color: white
+		&:hover
+			border: 2px solid $colorGreen
+			a
+				transition: 0.3s
+				color: $colorGreen
+
+	img
+		margin-bottom: 100px
+
+	
+	.btn_transparent
+		margin-top: 20px
+
+	p
+		max-width: 470px
+		margin-bottom: 20px
+
+
+//---------- FROM THE BLOG  ----------
+
+.blog_s
+	height: 800px
+	background-color: white
+	h2
+		text-align: center
+
+.blog_item
+	max-width: 330px
+	margin: 20px
+	h4
+		margin: 30px 0 20px 0
+	h4, .blog_info, p
+		padding: 0 15px
+
+.blog_info
+	color: #999999
+	div
+		display: inline-block
+		margin: 0 20px 20px 0
+		img
+			margin-right: 5px
+
+.blog_pic
+	width: 100%
+
+//-------------------- ARE YOU READY SECTION --------------------
+
+.are_you_ready_s
+	background-color: $colorGreen
+	height: 175px
+	color: white
+	h4
+		font-size: 24px
+		margin-bottom: 10px
+	button
+		a
+			color: white
+	.btn_transparent
+		border: 2px solid white
+		color: white
+		background-color: transparent
+		&:hover
+			border: 2px solid red
+			background-color: $colorRed
+
+
+
+//-------------------- FOOTER --------------------
+
+footer
+	padding: 50px 0
+	background-color: #232323
+	height: 255px
+	color: white
+	h3
+		a
+			color: white
+	.logo
+		padding-top: 50px
+	h5
+		font-size: 24px
+		margin-bottom: 15px
+		text-transform: uppercase
+
+
+		

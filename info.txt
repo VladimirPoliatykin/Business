@@ -1,0 +1,12 @@
+
+	Business landing webpage
+
+
+	Techonologies:
+		
+		- html, css
+		
+		- bootstrap, sass
+		
+		- npm, gulp, bower	
+	
